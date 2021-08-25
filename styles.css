@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster Two', cursive;
+    box-sizing: border-box;
+    color: #66666A;
+}
+
+main { 
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+        "h h h h h h h h h h h h "
+        "a a a s s s s s s s s s "
+        "f f f f f f f f f f f f ";
+}
+
+header {
+    grid-area: h;
+}
+
+aside {
+    grid-area: a;
+}
+
+section {
+    grid-area: s;
+}
+
+footer {
+    grid-area: f;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+aside {
+    color: #66666A;
+    width: 20%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+li {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.footer {
+    margin-top: 1em;
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+        "p p p p e e e e i i i i ";
+    align-items: center;
+}
+
+p {
+    grid-area: p;
+}
+
+.school {
+    grid-area: e;
+    text-align: center;
+}
+
+.icons {
+    grid-area: i;
+}
+
+.icons {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+        "z z z z x x x x y y y y"
+    
+}
+
+.icons img {
+    width: 45%;
+}
+
+.snapchat {
+    grid-area: z;
+    width: 90%;
+}
+
+.facebook {
+    grid-area: x;
+    width: 90%;
+}
+
+.twitter {
+    grid-area: y;
+    width: 90%;
+}
+
+.icons {
+    width: 90%;
+    text-align: right;
+    
+}
+
+section {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+        "u u u u u u u u u u u u "
+        "d d d d d d d d d d d d ";
+}
+
+.up {
+    grid-area: u;
+}
+
+.down {
+    grid-area: d;
+    width: 100%;
+}
+
+.up {
+    display: grid;
+    grid-gap: 2.5em;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+        " p p p p p p p o o o o o "
+}
+
+.sky {
+    grid-area: p;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+.other-sky {
+    grid-area: o;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+.sky img {
+    width: 80%;
+    height: 65%;
+    border-radius: 1em;
+}
+
+.other-sky img {
+    width: 100%;
+    height: 60%;
+    border-radius: 1em;
+}
+
+.down {
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 2.5em;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+        "c c c c t t t t e e e e"
+}
+
+.cloud {
+    grid-area: c;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1em;
+    text-align: center;
+   
+}
+
+.tree {
+    grid-area: t;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.evening {
+    grid-area: e;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.cloud img {
+    width: 100%;
+    height: 70%;
+    border-radius: 1em;
+}
+
+.tree img {
+    width: 100%;
+    height: 70%;
+    border-radius: 1em;
+}
+
+.evening img {
+    width: 100%;
+    height: 70%;
+    border-radius: 1em;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.space {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
